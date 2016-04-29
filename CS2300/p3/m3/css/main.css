@@ -1,0 +1,263 @@
+h2{
+  color: white;
+}
+
+.home .container{
+  background-color: 
+  width: 100%;
+}
+.upper{
+  height:20%;
+  background-color: #003366;
+  
+  overflow: hidden;
+}
+
+.upper p {
+  display: inline;
+}
+.upper .container {
+  width: 85%; 
+  margin: 0 auto; 
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.upper nav {
+  display: inline;
+}
+.upper nav a {
+  display: inline;
+  color: white; 
+  font-size: 1.2rem;
+  font-weight: 300; 
+  text-decoration: none;
+  padding-bottom: 4px;
+}
+.upper ul {
+  float: right;
+  margin: 0;
+  height: 34px;
+}
+.upper li {
+  display: inline;
+  color: white; 
+  font-size: 1.2rem;
+  font-weight: 300; 
+  padding: 0 25px;
+  height: 100%;
+}
+
+nav a:hover, nav .current {
+  border-bottom: 3px solid white;
+}
+
+body 
+{ 
+    /*background: url("Background.jpg")  no-repeat center center fixed; */
+    background-color: #3399CC;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Arial", Arial, sans-serif;
+}
+
+.home h3{
+  text-align: center;
+}
+
+.home table{
+  text-align: center;
+  margin : auto;
+  width: 80% ;
+  color: white;
+}
+
+
+.add{
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.add h3{
+    text-align: center;
+}
+
+.add fieldset{
+    border: none;
+}
+.add label {
+    display: block;
+    margin-bottom: 8px;
+}
+.add input[type="text"],
+.add select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;    
+}
+
+
+.add input[type="text"]:focus,
+.add input[type="radio"]:focus,
+.add select:focus{
+    background: #d2d9dd;
+}
+.add select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+
+.add button
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+
+.add button
+{
+    background: #109177;
+}
+
+.search h3{
+  text-align: center;
+}
+
+.search table{
+  text-align: center;
+  margin : auto;
+  width: 80% ;
+  color: black;
+} 
+
+.search .find{
+  color: red;
+}
+
+.search{
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+} 
+
+.search h3{
+    text-align: center;
+}
+
+.search form fieldset{
+    border: none;
+}
+.search form label {
+    display: block;
+    margin-bottom: 8px;
+}
+.search form input[type="text"],
+.search form select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;    
+}
+
+.search form input[type="text"]:focus,
+.search form input[type="radio"]:focus,
+.search form select:focus{
+    background: #d2d9dd;
+}
+
+.search form select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+
+.search form button
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+
+.search form button
+{
+    background: #109177;
+}
+
+#image{
+  float: left;
+  margin-top: 20px;
+
+}
+#image img {
+  width: 300px;
+  height: 200px;
+
+}
+
+
+#image li{
+  float:left;
+  
+  width: 33%;
+}
+
+
+

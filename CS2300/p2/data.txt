@@ -1,0 +1,14 @@
+chun|woman|23|JAVA|5
+zhongru|man|23|JAVA|5
+genuis|man|1|JAVA|5
+Tony|man|23|JAVA|4
+Tim|man|99|MySQL|4
+Google Facebook Amazon Yahoo Microsoft|man|1|C/C++|5
+mengyuan|man|24|python|5
+dong|man|23|JAVA|5
+Parker|man|23|python|2
+nimabi|man|1|JAVA|5
+wefeww|man|23|MySQL|3
+madarahashirama|man|32|JAVA|3
+madarahashirama|man|20|JAVA|3
+Spirited Away|man|1|python|3

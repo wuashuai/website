@@ -1,0 +1,140 @@
+
+.welcome {
+  /*This photo is made by my self*/
+  background-image:url("../img/nyc.jpg");
+  height: 550px;
+  overflow: hidden;
+}
+
+.welcome .container {
+  position: relative;
+  top:100px;
+}
+
+.welcome h1 {
+  color: #006699;
+  margin-left: 10%;
+  font-size: 24px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.welcome p {
+  margin-left: 10%;
+  font-size: 20px;
+  color: #006699;
+}
+
+.upper{
+  height:20%;
+  background-color: #003366;
+  
+  overflow: hidden;
+}
+
+.upper p {
+  display: inline;
+}
+.upper .container {
+  width: 85%; 
+  margin: 0 auto; 
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+.upper nav {
+  display: inline;
+}
+.upper nav a {
+  display: inline;
+  color: white; 
+  font-size: 1.2rem;
+  font-weight: 300; 
+  text-decoration: none;
+  padding-bottom: 4px;
+}
+.upper ul {
+  float: right;
+  margin: 0;
+  height: 34px;
+}
+.upper li {
+  display: inline;
+  color: white; 
+  font-size: 1.2rem;
+  font-weight: 300; 
+  padding: 0 25px;
+  height: 100%;
+}
+
+.upper h1{
+  font-family:'SimHei', Arial, sans-serif;
+  font-weight:400;
+  font-size:2.4em;
+  line-height:0.5em;
+  color: white;
+}
+
+nav a:hover, nav .current {
+  border-bottom: 3px solid white;
+}
+
+.introduce{
+  background-image: url("../img/trip.jpg"); 
+  height:800px;
+  overflow: hidden; 
+}
+
+.introduce p{
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+
+@keyframes slidy {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  25% { left: -100%; }
+  45% { left: -100%; }
+  50% { left: -200%; }
+  70% { left: -200%; }
+  75% { left: -300%; }
+  95% { left: -300%; }
+  100% { left: -400%; }
+}
+
+
+div#slide { 
+  overflow: hidden; 
+}
+div#slide figure img {
+  width: 20%; 
+  float: left; 
+}
+
+div#slide figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 10s slidy infinite; 
+}
+
+.word h1{
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  text-align:center;
+  margin: auto;
+  left:35%;
+  top:25px;
+}
+
+.photo{
+  position: relative;
+  border:50px ;
+  margin:0;
+}
